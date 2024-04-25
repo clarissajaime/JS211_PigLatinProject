@@ -1,62 +1,25 @@
-# JS211_CurrentDateTimeProject[![CircleCI](https://circleci.com/gh/AustinCodingAcademy/javascript-workbook/tree/gh-pages.svg?style=svg)](https://circleci.com/gh/AustinCodingAcademy/javascript-workbook/tree/gh-pages)
-
-![](http://en.gravatar.com/userimage/107370100/a08594145564536138dfaaf072c7b241.png)
-
 # Austin Coding Academy
 
-## JavaScript 211 Project: Pig Latin
+## JavaScript 211 Project: Hackathon
+
+Today's challenge is to work as a team, divide the work, share a repo and get a working prototype up by the end of class.
 
 ### Today's Checklist
 
-1. Fork and clone [Pig Latin Repo](https://github.com/AustinCodingAcademy/JS211_PigLatinProject.git)
-1. Ensure you have installed all dependencies/packages: `npm i`
-1. Look at the Unit Test, see what is being called, passed as input arguments, and what the expected results are.
-1. Ensure you know how to run the unit test:
-    * `npm test main.js`
-1. Use a whiteboard to work out a solution to building the Pig Latin program
-1. Translate the broad ideas to pseudo code
+1. First build this project in the terminal
+1. Then attach it to the DOM
+1. Work through the challenge together
+1. As always whiteboard it and make a code plan
+1. Translate from English to pseudo code then to JavaScript
+1. Write tests and test with `npm test main.js`
 1. Convert the pseudo code to real JavaScript Code
-1. Type into your text editor the JavaScript code you've come up with one step at a time
-1. Work through your bugs.
 1. Use `node main.js` to run the game
-1. Achieve green checks for each of your unit tests.
+1. Once the terminal app works, build a GUI for your
+1. Present to class
+1. Turn in the URL to your repo and to your github.io, once for each person in your group
 
-### Hints
-
-1. Run your unit tests first!!
-1. Use [repl.it](https://www.repl.it) to write the solution code first. (it's a faster environment vs using the `node main.js` command over and over again.)
-1. Read the comments in `main.js`
-1. Use the [JS Docs at W3S](https://www.w3schools.com/jsref/jsref_split.asp)
-1. Push yourself further.
-1. Look at your hints!
-1. **Clone, setup, testing, and running instructions for all projects is below**
 
 ******
-
-## Cloning Your Project
-
-1. Click the 'Fork' button (choose your account if prompted).
-1. Copy HTTPS URL from your forked repository
-1. In your terminal/gitBash/CommandPrompt navigate (using `cd`) into a directory where you want to start keeping your repositories. (`/jsDevFolder`)
-1. Clone your new repository by typing `git clone <forked clone URL>` (the HTTPS
-URL you copied above)
-  ![Forking a repository](https://docs.google.com/drawings/d/1tYsLHaLo8JRdp0xC1EZrAo0o9Wvv4S5AD937cokVOBk/pub?w=960&h=720)
-1. Now go into the new directory by using `cd project-repo`
-
-1. Add the base repository as an upstream
-    `git remote add upstream https://github.com/AustinCodingAcademy/<PROJECT-REPO>.git`
-
-1. Check the configuration of your remotes with `git remote -v`, it should look
-very similar to this (except it'll be YOUR username)
-
-```bash
-$ git remote -v
-
-origin  git@github.com:username/javascript-workbook.git (fetch)
-origin  git@github.com:username/javascript-workbook.git (push)
-upstream    git@github.com:AustinCodingAcademy/javascript-workbook.git (fetch)
-upstream    git@github.com:AustinCodingAcademy/javascript-workbook.git (push)
-```
 
 ### Setup
 
@@ -81,16 +44,6 @@ GitHub `git push`
 1. Every time you make a change *and push to GitHub*, this PR will automatically
 update. No need to do it more than once.
 
-#### Get latest workbook updates
-
-1. To get the latest code/homework/test updates, be sure to have a "clean
-working directory" by committing or removing all of your changes. You check for
-a "clean working environment" by running `git status` and making sure no files
-show up.
-
-1. Run `git pull upstream gh-pages`
-
-![Contributing workflow](https://docs.google.com/drawings/d/1WeKQxOHgPKfwjy_eKtlJO62Fu4XTCWFeqkAh1oIqICM/pub?w=960&h=720)
 
 ### Running the apps
 
